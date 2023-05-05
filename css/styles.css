@@ -1,3 +1,52 @@
+ul{
+    margin: 0;
+    padding: 15px 30px 5px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+span{
+    padding: 10px;
+}
+
+
 .logo{
-    width: 30%!important;
+    width: 200px;
+    display: block;
+}
+
+.menú-1{
+    display: flex;
+}
+
+.especificaciones{
+    padding-left: 48vh;
+}
+.contenedor-header{
+    margin: 0 156px;
+}
+
+.menú-2{
+    text-align: right;
+}
+
+.columnasDos{
+    display: flex;
+}
+
+.contenido{
+    margin: 0 156px;
+    border-top: 1px solid;
+    border-top-color: grey;
+    
+
+}
+.informacion{
+    background-color: #617989;
+}
+
+.imagen{
+    width: 100%;
 }
