@@ -50,3 +50,38 @@ span{
 .imagen{
     width: 100%;
 }
+
+.container{
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+.titulacion{
+    text-align: center ;
+}
+.titulo{
+    text-align: center;
+}
+.column-section {
+    padding: 50vh;
+    background-color: #f8f7f5;
+    border-radius: 16px;
+    padding: 46px;
+    text-align: center;
+    
+}
+.cards  {
+display:flex;
+
+}
+
+.cards .card {
+padding-left:50px;
+justify-content: space-between;
+text-align: center;
+width: calc(33.3333% - 20px);
+background-color: #f8f7f5;
+border-radius: 16px;
+
+
+}
+    
