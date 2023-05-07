@@ -1,3 +1,4 @@
+
 body {
     margin:0;
     padding:0;
@@ -8,10 +9,16 @@ h3{
 
 ul{
     margin: 0;
-    padding: 15px 30px 5px;
-    list-style: none;
+    padding-left: 80px!important;
     display: flex;
     flex-wrap: wrap;
+}
+
+h4{
+    color: #f60;
+    font-size: 32px;
+    font-weight: lighter;
+    text-decoration: underline;
 }
 
 
@@ -21,6 +28,12 @@ span{
 
 .especificaciones span {
     padding: 14px;
+    
+}
+
+.especificaciones a{
+    color: black;
+    text-decoration: none;
 }
 
 .logo {
@@ -60,6 +73,17 @@ span{
 }
 .informacion{
     background-color: #617989;
+    margin: 0;
+    padding: 15px 30px 5px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    
+}
+
+.lista{
+    list-style: none;
 }
 
 .imagen{
@@ -165,10 +189,208 @@ display:flex;
 }
 
 .cards .card {
-padding-left:50px;
+padding-left:27px;
 justify-content: space-between;
 text-align: center;
 width: calc(33.3333% - 20px);
 background-color: #f8f7f5;
 border-radius: 16px;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .left-section {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .left-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .left-section ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .left-section li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .middle-section {
+    flex: 1;
+    margin: 0 50px;
+  }
+  
+  .middle-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .right-section {
+    flex: 1;
+    margin-left: 50px;
+  }
+  
+  .right-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .containerb h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    
+  }
+
+  .containerb{
+    padding: 20px;
+    background-color: #f8f7f5;
+  }
+  
+  .containerb p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100vh;
+    padding-left: 23vh;
+}
+  .contenedor_final {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+  
+  .imagen_final {
+    width: 40%;
+  }
+  
+  
+  .imagen_final p {
+    margin-top: 20px;
+  }
+  
+  .titulo_final {
+    width: 60%;
+    text-align: center;
+  }
+  
+  .titulo_final h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .titulo_final ul {
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  
+  .titulo_final li {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 30px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 30%;
+  }
+  
+  .column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+  .description{
+font-size: 33px;
+  }
+
+  .texto{
+    color: #FF0000;
+    text-decoration: underline;
+  }
+  
+  .texto-final{
+    color: #FF0000;
+    text-decoration: underline;
+    padding-top: 43px;
+  }
+
+  .title{
+    font-size: 19px;
+  }
+  .titulo{
+    padding-top: 12vh;
+  }
+
+  .list-final{
+    padding-left: 20vh;
+  }
+  .list-final li{
+    font-size:21px;
+    
+  }
+  .arrow-btn::before {
+    content: '';
+    position: absolute;
+    background: #2c90e8 url(../../../../../../../../themes/wp-compensar/assets/img/down-arrow.svg) no-repeat center;
+    width: 56px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+    top: 0;
+    left: 0;
+}
+  .arrow-btn {
+    margin: 6vh;
+    width: 28vh;
+    text-align: left;
+    height: 28px;
+    background: #446d89;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+    display: block;
+    text-decoration: none;
+    padding: 8px 12px 12px 75px;
+    max-width: 100%;
+    position: relative;
+    white-space: nowrap;
+    transition: all 0.3s ease-in;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
